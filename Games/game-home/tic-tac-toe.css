@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding: 0px;
+    border-color: aqua;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+h1{
+    font-size: 60px;
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 20px;
+}
+.game{
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: row;
+    gap: px;
+    height: 300px;
+    width: 300px;
+}
+.box{
+    color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+  
+    background-color: transparent;
+    font-size: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.msg-container{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(51, 48, 42);
+    color: rgb(114, 102, 126);
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.hide{
+    display: none;
+}
+.reset{
+    background-color: aqua;
+    color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.new{
+    background-color: aqua;
+    color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.review{
+    background-color: aqua;
+    color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;     
+}
+.turn-select h1{
+    font-size: 40px;
+    color: aqua;
+}
+.turn-select{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+}
+.select{
+    width: 100px;
+    height: 50px;
+    border-radius: 75px;
+    font-size: 40px;
+
+}
+.score{
+    display :flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.hscore{
+    font-size: 20px;
+}
+.xscore{
+    text-align: center;
+}
+.oscore{
+    text-align: center;
+}

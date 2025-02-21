@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("snakebg.jpg");
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.board{
+    height: 99vh;
+    width: 700px;
+    background: linear-gradient(rgb(14, 15, 12),rgb(130, 213, 124));
+    display: grid;
+    grid-template-columns:repeat(18, 1fr);
+    grid-template-rows:repeat(18, 1fr);
+    border: 3px double blanchedalmond;
+}
+.head{
+    background-color: red;
+
+}
+.food{
+    background-color: bisque;
+}

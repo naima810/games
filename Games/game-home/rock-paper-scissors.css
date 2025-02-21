@@ -1,0 +1,79 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('bgrps.jpg');
+}
+.all{
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.navi{
+    background-color: rgb(39, 63, 63);
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.navi:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction:row ;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.select{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(57, 162, 215);
+    color: black;
+    border: 1px double black;
+}
+.select:hover{
+    height: 110px;
+    width: 110px;
+    border-radius: 55px;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.score:hover{
+    cursor: pointer;
+}
+.select:hover{
+    cursor: pointer;
+}
+.score p{
+    font-size: larger;
+}
+.btn{
+   display: inline;
+    font-size: 30px;
+    background-color:  rgb(39, 63, 63);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+button img{
+height : 90px;
+width :90px;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    overflow: hidden;
+}
+#main{
+    align-items: center;
+    gap: 30px;
+}
+#heading{
+    background-color: rgba(0,0,0,0.5);
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    font-size: 50px;
+    color: aqua;
+}
+#heading p{
+    font-size: 20px;
+}
+@media (max-width:400px){
+    .welcome{
+        font-size: 40px;
+    }
+}
+.game-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#games{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    gap:20px
+}
+.game-div{
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+.game-div:hover{
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 15px rgb(63, 60, 60);
+    transform: scale(1.01);
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+.detail{
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+    width: 100vw;
+    padding: 10px;
+    border-radius:20px 20px 0px 0px ;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
